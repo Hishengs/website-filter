@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["src/libs/lodash.min.js", "src/content_script.js"],
+      "js": ["dist/content_script.js"],
       "run_at": "document_start"
     }
   ],
