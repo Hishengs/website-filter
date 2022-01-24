@@ -5,6 +5,7 @@ function banAll () {
     `
     #s_top_wrap,
     #s_wrap,
+    #s-top-left,
     #bottom_layer,
     .s-top-left,
     .s-top-right

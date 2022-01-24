@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2,
-  "name": "Website Filter",
+  "manifest_version": 3,
+  "name": "Website Cleaner",
   "version": "1.0.0",
   "author": "hishengs@gmail.com",
   "description": "A Chrome Extension for Filter Website Contents",
-  "homepage_url": "https://github.com/Hishengs/Website-filter",
+  "homepage_url": "https://github.com/Hishengs/website-cleaner",
   "icons": {
     "16": "icon/16.png",
     "32": "icon/32.png",
@@ -18,17 +18,10 @@
       "run_at": "document_start"
     }
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "icon/48.png",
     "default_title": "A Chrome Extension for Filter Website Contents",
     "default_popup": "src/popup.html"
   },
-  "permissions": [
-    "webRequest",
-    "storage",
-    "notifications",
-    "https://*.github.com/",
-    "https://*.githubusercontent.com/"
-  ],
   "default_locale": "en"
 }

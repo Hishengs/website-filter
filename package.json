@@ -1,7 +1,7 @@
 {
-  "name": "website-filter",
+  "name": "website-cleaner",
   "version": "1.0.0",
-  "description": "A Filter for Some Websites",
+  "description": "A Cleaner for Some Websites",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c ./build/rollup.config.js"
